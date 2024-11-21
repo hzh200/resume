@@ -1,0 +1,133 @@
+/* 
+
+Quote：经过我的广泛搜索、观察，总结出了国内外业内人士、设计师、HR 专家的推荐的适合简历的四款英文字体和三款中文字体：
+
+英文：
+    Arial
+    Helvetica
+    Times New Roman
+    Georgia
+
+中文：
+    微软雅黑
+    思源宋体
+    华文楷体
+
+*/
+
+* {
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    /* font-family: SimHei; */
+    /* font-family: SimSun; */
+    /* font-family: 'Source Han Serif'; */
+    /* font-family: Arial; */
+    /* font-family: 'Microsoft YaHei'; */
+    font-family: 'STKaiti';
+}
+
+html {
+    /* width: 800px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+passage {
+    display: flex;
+    font-size: 18px;
+    /* font-size: large; */
+    font-weight: 600;
+    line-height: 24px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    /* border-bottom: 2px solid #696969; */
+    border-bottom: 2px solid #696969;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+item {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.row {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.sep {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    display: flex;
+}
+
+english {
+    font-family: 'Times New Roman';
+}
+
+name {
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+.special {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+gap {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+label {
+    flex: none;
+}
+
+label::after {
+    content: '：';
+}
+
+ul {
+    margin: 2px;
+    padding-left: 18px;
+}
+
+#main {
+    width: 700px;
+}
+
+#personal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-personal {
+    margin-top: 5px;
+    width: 200px;
+}
+
+.right-personal > p {
+    word-wrap: break-word;
+}
+
+#education > div {
+    margin-bottom: 15px;
+}
+
+#education > div:last-child {
+    margin-bottom: 0px;
+}
